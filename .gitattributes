@@ -1,0 +1,14 @@
+# Files used inside Linux containers keep LF line endings on Windows too.
+* text=auto eol=lf
+
+# Windows scripts need CRLF.
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+*.png binary
+*.ico binary
+*.otf binary
+*.ttf binary
+*.wasm binary
+*.bin binary
